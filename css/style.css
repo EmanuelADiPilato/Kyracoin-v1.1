@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #000b12;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px; }
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold; }
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px; }
+
+.containerMain {
+  margin-bottom: 5%; }
+
+.title-main {
+  font-size: 30px;
+  color: blanchedalmond; }
+
+.imgMain {
+  max-height: 40rem; }
+
+.mainIndex {
+  position: relative; }
+
+.textMain {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%; }
+
+table {
+  display: block;
+  overflow-x: auto; }
+
+footer {
+  display: block; }
+
+.coinRune {
+  width: 15rem; }
+
+.infoRune {
+  font-size: 25px;
+  color: white; }
+
+.main__parrafo {
+  font-size: 1.5rem; }
+
+.Defi__item {
+  font-size: 1rem; }
+
+.boton:hover {
+  color: #a10a0a;
+  box-shadow: 0 15px 20px #ac3137;
+  transition: all 0.4s ease; }
+
+.listcompra {
+  font-size: 25px;
+  font-weight: bold; }
+
+section #contact {
+  background-color: #212529;
+  background-position: center; }
+
+.header {
+  color: #0D6EFD; }
+
+.form-group {
+  margin-bottom: 1.5rem; }
+  .form-group input {
+    padding: 1.25rem; }
+  .form-group textarea {
+    padding: 1.25rem; }
+  .form-group input.form-control {
+    height: auto; }
+
+.form-group-textarea {
+  height: 100%; }
+  .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem; }
+
+.inputform {
+  margin-right: 1rem; }
+
+@media (min-width: 992px) {
+  #menu a {
+    font-size: 30px;
+    font-weight: bold; }
+    #menu a:hover {
+      color: #0D6EFD;
+      font-size: 40px; }
+  .title-main {
+    font-size: 3rem;
+    color: blanchedalmond;
+    line-height: 7rem; }
+  .title {
+    font-size: 4rem; }
+  .titleRune {
+    font-size: 4rem; }
+  .infoRune {
+    font-size: 1.5em;
+    color: white; }
+  .parrafo__defi {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 767px) {
+  .compraApe {
+    margin-top: 3rem; }
+  .inputform {
+    margin-top: 1rem; } }
