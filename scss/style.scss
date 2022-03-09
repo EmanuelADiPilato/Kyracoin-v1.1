@@ -2,10 +2,22 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* variables */
+$color-fuente: #ffebcd;
+$fontsize1:  25px;
+$fonttitle:  3rem;
+$fontsizep: 1.8rem;
+$fontsizepm: 1rem;
+$fontsizept: 1.3rem;
+$fonttitlem: 1.5rem;
+$fonttitlet: 1.6rem;
+/* ======== */
+
 body {
 	background-color: #000b12;
 	overflow-x: hidden;
-	color: white;
+	color: $color-fuente;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 20px;
 }
@@ -20,18 +32,22 @@ body {
 		border-radius: 10px;
 	}
 }
+
 .containerMain {
 	margin-bottom: 5%;
 }
 .title-main {
 	font-size: 30px;
-	color: blanchedalmond;
+	color: $color-fuente;
 }
 .imgMain {
 	max-height: 40rem;
 }
 .mainIndex {
 	position: relative;
+}
+.infoKyra{
+	font-size: $fontsizepm;
 }
 .textMain {
 	position: absolute;
@@ -50,14 +66,20 @@ footer {
 	width: 15rem;
 }
 .infoRune {
-	font-size: 25px;
-	color: white;
+	font-size: $fontsizepm;
+	color: $color-fuente;
 }
 .main__parrafo {
-	font-size: 1.5rem;
+	font-size: $fontsizepm;
 }
 .Defi__item {
 	font-size: 1rem;
+}
+.infometa{
+	font-size: $fontsizept;
+}
+.titleMeta{
+	font-size: $fonttitlem;
 }
 .boton {
 	&:hover {
@@ -65,7 +87,7 @@ footer {
 		box-shadow: 0 15px 20px rgb(172, 49, 55);
 		transition: all 0.4s ease;
 	}
-}
+} 
 .listcompra {
 	font-size: 25px;
 	font-weight: bold;
@@ -107,14 +129,13 @@ section {
 			font-size: 30px;
 			font-weight: bold;
 			&:hover {
-				color: #0D6EFD;
-				font-size: 40px;
+				color: #fff;
 			}
 		}
 	}
 	.title-main {
 		font-size: 3rem;
-		color: blanchedalmond;
+		color: $color-fuente;
 		line-height: 7rem;
 	}
 	.title {
@@ -127,8 +148,14 @@ section {
 		font-size: 1.5em;
 		color: white;
 	}
+	.infoKyra{
+		font-size: $fontsizep;
+	}
 	.parrafo__defi {
 		font-size: 1.5rem;
+	}
+	.main__parrafo {
+		font-size: $fontsizep;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -137,5 +164,31 @@ section {
 	}
 	.inputform {
 		margin-top: 1rem;
+	}
+	.infoKyra{
+		font-size: $fontsizep;
+	}
+	.infoRune{
+		font-size: $fontsizep;
+	}
+}
+@media screen and (min-width:768px) and (max-width:991px){
+	.infoKyra{
+		font-size: $fontsizept;
+	}
+	.infoRune{
+		font-size: $fontsizept;
+	}
+	.main__parrafo{
+		font-size: $fontsizept;
+	}
+	.parrafo__defi{
+		font-size: $fontsizept;
+	}
+	.infometa{
+		font-size: $fontsizept;
+	}
+	.titleMeta{
+		font-size: $fonttitlet;
 	}
 }

@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0; }
 
+/* variables */
+/* ======== */
 body {
   background-color: #000b12;
   overflow-x: hidden;
-  color: white;
+  color: #ffebcd;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px; }
 
@@ -23,13 +25,16 @@ body {
 
 .title-main {
   font-size: 30px;
-  color: blanchedalmond; }
+  color: #ffebcd; }
 
 .imgMain {
   max-height: 40rem; }
 
 .mainIndex {
   position: relative; }
+
+.infoKyra {
+  font-size: 1rem; }
 
 .textMain {
   position: absolute;
@@ -48,14 +53,20 @@ footer {
   width: 15rem; }
 
 .infoRune {
-  font-size: 25px;
-  color: white; }
+  font-size: 1rem;
+  color: #ffebcd; }
 
 .main__parrafo {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .Defi__item {
   font-size: 1rem; }
+
+.infometa {
+  font-size: 1.3rem; }
+
+.titleMeta {
+  font-size: 1.5rem; }
 
 .boton:hover {
   color: #a10a0a;
@@ -96,11 +107,10 @@ section #contact {
     font-size: 30px;
     font-weight: bold; }
     #menu a:hover {
-      color: #0D6EFD;
-      font-size: 40px; }
+      color: #fff; }
   .title-main {
     font-size: 3rem;
-    color: blanchedalmond;
+    color: #ffebcd;
     line-height: 7rem; }
   .title {
     font-size: 4rem; }
@@ -109,11 +119,33 @@ section #contact {
   .infoRune {
     font-size: 1.5em;
     color: white; }
+  .infoKyra {
+    font-size: 1.8rem; }
   .parrafo__defi {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .main__parrafo {
+    font-size: 1.8rem; } }
 
 @media screen and (max-width: 767px) {
   .compraApe {
     margin-top: 3rem; }
   .inputform {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .infoKyra {
+    font-size: 1.8rem; }
+  .infoRune {
+    font-size: 1.8rem; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .infoKyra {
+    font-size: 1.3rem; }
+  .infoRune {
+    font-size: 1.3rem; }
+  .main__parrafo {
+    font-size: 1.3rem; }
+  .parrafo__defi {
+    font-size: 1.3rem; }
+  .infometa {
+    font-size: 1.3rem; }
+  .titleMeta {
+    font-size: 1.6rem; } }
