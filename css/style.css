@@ -132,9 +132,9 @@ section #contact {
   .inputform {
     margin-top: 1rem; }
   .infoKyra {
-    font-size: 1.8rem; }
+    font-size: 1rem; }
   .infoRune {
-    font-size: 1.8rem; } }
+    font-size: 1rem; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .infoKyra {
