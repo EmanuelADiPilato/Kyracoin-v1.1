@@ -126,21 +126,11 @@ section #contact {
     margin-top: 3rem; }
   .inputform {
     margin-top: 1rem; }
-  .infoKyra {
-    font-size: 1rem; }
-  .infoRune {
+  .infoKyra .inforune {
     font-size: 1rem; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .infoKyra {
-    font-size: 1.3rem; }
-  .infoRune {
-    font-size: 1.3rem; }
-  .main__parrafo {
-    font-size: 1.3rem; }
-  .parrafo__defi {
-    font-size: 1.3rem; }
-  .infometa {
+  .infoKyra .inforune .main__parrafo .parrafo__defi .infometa {
     font-size: 1.3rem; }
   .titleMeta {
     font-size: 1.6rem; } }

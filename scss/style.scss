@@ -161,27 +161,12 @@ section {
 	.inputform {
 		margin-top: 1rem;
 	}
-	.infoKyra{
-		font-size: $fontsizepm;
-	}
-	.infoRune{
+	.infoKyra .inforune{
 		font-size: $fontsizepm;
 	}
 }
 @media screen and (min-width:768px) and (max-width:991px){
-	.infoKyra{
-		font-size: $fontsizept;
-	}
-	.infoRune{
-		font-size: $fontsizept;
-	}
-	.main__parrafo{
-		font-size: $fontsizept;
-	}
-	.parrafo__defi{
-		font-size: $fontsizept;
-	}
-	.infometa{
+	.infoKyra .inforune .main__parrafo .parrafo__defi .infometa{
 		font-size: $fontsizept;
 	}
 	.titleMeta{
