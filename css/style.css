@@ -4,6 +4,17 @@
 
 /* variables */
 /* ======== */
+/* maps */
+.text-parrafos {
+  color: #ffff; }
+
+.text-resaltado {
+  color: #ffc107; }
+
+.text-subtitulos {
+  color: #0D6EFD; }
+
+/* mixin */
 body {
   background-color: #000b12;
   overflow-x: hidden;
@@ -52,7 +63,7 @@ footer {
 
 .infoRune {
   font-size: 1rem;
-  color: #ffebcd; }
+  color: white; }
 
 .main__parrafo {
   font-size: 1rem; }
@@ -104,14 +115,16 @@ section #contact {
     #menu a:hover, #menu button:hover {
       color: #fff; }
   .title-main {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #ffebcd;
     line-height: 7rem; }
   .title {
     font-size: 4rem; }
   .titleRune {
+    font-size: 4rem;
     font-size: 4rem; }
   .infoRune {
+    font-size: 1.5rem;
     font-size: 1.5em;
     color: white; }
   .infoKyra {
@@ -134,13 +147,3 @@ section #contact {
     font-size: 1.3rem; }
   .titleMeta {
     font-size: 1.6rem; } }
-
-/* maps */
-.text-parrafos {
-  color: #ffff; }
-
-.text-resaltado {
-  color: #ffc107; }
-
-.text-subtitulos {
-  color: #0D6EFD; }

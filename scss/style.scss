@@ -14,6 +14,31 @@ $fonttitlem: 1.5rem;
 $fonttitlet: 1.6rem;
 /* ======== */
 
+/* maps */
+$colores:(parrafos:#ffff, resaltado:#ffc107, subtitulos:#0D6EFD);
+
+@each $clave, $valor in $colores {
+	.text-#{$clave}{
+		color:$valor;
+	}
+}
+
+$estilos: (
+	fuente: 4rem,
+	color: white,
+	fuente2: 1.5rem,
+
+);
+
+/* mixin */
+@mixin tamaño ($position, $top, $left, $width) {
+	position: $position;
+	top: $top;
+	left: $left;
+	width: $width;
+	
+}
+
 body {
 	background-color: #000b12;
 	overflow-x: hidden;
@@ -49,10 +74,7 @@ body {
 	font-size: $fontsizepm;
 }
 .textMain {
-	position: absolute;
-	top: 20%;
-	left: 0;
-	width: 100%;
+	@include tamaño(absolute, 20%, 0, 100%);
 }
 table {
 	display: block;
@@ -66,7 +88,7 @@ footer {
 }
 .infoRune {
 	font-size: $fontsizepm;
-	color: $color-fuente;
+	color: map-get($estilos, color);
 }
 .main__parrafo {
 	font-size: $fontsizepm;
@@ -130,19 +152,21 @@ section {
 		}
 	}
 	.title-main {
-		font-size: 3rem;
+		font-size: map-get($estilos, fuente);
 		color: $color-fuente;
 		line-height: 7rem;
 	}
 	.title {
-		font-size: 4rem;
+		font-size: map-get($estilos, fuente);
 	}
 	.titleRune {
+		font-size: map-get($estilos, fuente);
 		font-size: 4rem;
 	}
 	.infoRune {
+		font-size: map-get($estilos, fuente2);
 		font-size: 1.5em;
-		color: white;
+		color: map-get($estilos, color);
 	}
 	.infoKyra{
 		font-size: $fontsizep;
@@ -174,12 +198,3 @@ section {
 	}
 }
 
-/* maps */
-$colores:(parrafos:#ffff, resaltado:#ffc107, subtitulos:#0D6EFD);
-
-@each $clave, $valor in $colores {
-	.text-#{$clave}{
-		color:$valor;
-	}
-	
-}
