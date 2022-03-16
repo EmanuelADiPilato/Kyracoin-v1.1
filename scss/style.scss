@@ -27,9 +27,8 @@ body {
 		font-weight: bold;
 	}
 	button {
-		font-size: 18px;
-		font-weight: bold;
-		border-radius: 10px;
+		@extend a ;
+		border-radius: 40px;
 	}
 }
 
@@ -97,9 +96,6 @@ section {
 		background-color: #212529;
 		background-position: center;
 	}
-}
-.header {
-	color: #0D6EFD;
 }
 .form-group {
 	margin-bottom: 1.5rem;
@@ -191,4 +187,14 @@ section {
 	.titleMeta{
 		font-size: $fonttitlet;
 	}
+}
+
+/* maps */
+$colores:(parrafos:#ffff, resaltado:#ffc107, subtitulos:#0D6EFD);
+
+@each $clave, $valor in $colores {
+	.text-#{$clave}{
+		color:$valor;
+	}
+	
 }
