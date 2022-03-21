@@ -77,6 +77,15 @@ footer {
 .titleMeta {
   font-size: 1.5rem; }
 
+.titlenosotros {
+  font-size: 1.5rem; }
+
+.infonosotros {
+  font-size: 1rem; }
+
+.inforedes {
+  font-size: 1rem; }
+
 .boton:hover {
   color: #a10a0a;
   box-shadow: 0 15px 20px #ac3137;
@@ -85,6 +94,9 @@ footer {
 .listcompra {
   font-size: 25px;
   font-weight: bold; }
+
+section .section_buy li {
+  font-size: 1rem; }
 
 section #contact {
   background-color: #212529;
@@ -132,7 +144,9 @@ section #contact {
   .parrafo__defi {
     font-size: 1.5rem; }
   .main__parrafo {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .infonosotros {
+    font-size: 1.5em; } }
 
 @media screen and (max-width: 767px) {
   .compraApe {

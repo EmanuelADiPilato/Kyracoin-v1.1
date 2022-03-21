@@ -1,7 +1,7 @@
 {
   "name": "kyracoin-sass",
-  "version": "1.0.0",
-  "description": "g",
+  "version": "1.1.0",
+  "description": "inversiones defi, crypto activos de alta volatilidad, retornos de inversion mensuales",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,15 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   
-  "author": "",
+  "author": "Kyracoin group",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmanuelADiPilato/Kyracoin-v1.1"
+  },
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "boostrap":"^5.1.3"
   }
 }

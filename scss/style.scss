@@ -102,6 +102,16 @@ footer {
 .titleMeta{
 	font-size: $fonttitlem;
 }
+.titlenosotros{
+	font-size: $fonttitlem;
+}
+.infonosotros{
+	font-size: $fontsizepm;
+}
+.inforedes{
+	font-size: $fontsizepm;
+}
+
 .boton {
 	&:hover {
 		color: rgb(161, 10, 10);
@@ -112,6 +122,11 @@ footer {
 .listcompra {
 	font-size: 25px;
 	font-weight: bold;
+}
+section {
+	.section_buy li{
+	font-size: $fontsizepm;
+	}
 }
 section {
 	#contact {
@@ -176,6 +191,9 @@ section {
 	}
 	.main__parrafo {
 		font-size: $fontsizep;
+	}
+	.infonosotros{
+		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 767px) {
