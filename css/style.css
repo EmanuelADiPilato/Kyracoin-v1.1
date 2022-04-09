@@ -95,6 +95,9 @@ footer {
   font-size: 25px;
   font-weight: bold; }
 
+.div__swap {
+  text-align: center; }
+
 section .section_buy li {
   font-size: 1rem; }
 
@@ -146,11 +149,16 @@ section #contact {
   .main__parrafo {
     font-size: 1.8rem; }
   .infonosotros {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .titlenosotros {
+    font-size: 3rem; }
+  .titlecomprar {
+    font-size: 3rem; } }
 
 @media screen and (max-width: 767px) {
   .compraApe {
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    text-align: center; }
   .inputform {
     margin-top: 1rem; }
   .infoKyra .inforune {
